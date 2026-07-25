@@ -37,17 +37,16 @@ meta, all of which pointed at the old site and would 404.
 
 ## Headshot
 
-The "Meet Ize" slot shows a **Coming Soon** card
-(`wp-content/uploads/2026/05/Meet-Ize-coming-soon.svg`) — a 791×699 SVG built from the
-site's own palette (`#165DA3` accent, `#6EC1E4` glyph, Inter).
+The "Meet Ize" slot now shows a real photo, `wp-content/uploads/2026/05/Meet-Ize.webp`
+(791×699, cropped from the original shot in front of the ULTRAFIT sign). The
+social-preview `og:image` and the JSON-LD `primaryImage`/`thumbnailUrl` point at it too.
 
-Alex Dinh's photo has been deleted from the tree entirely, along with its `-300x265` and
-`-768x679` variants. The social-preview `og:image` and the JSON-LD `primaryImage`, which
-both pointed at that photo, now point at `ultrafit-usa-logo.svg`.
+The previous **Coming Soon** placeholder
+(`wp-content/uploads/2026/05/Meet-Ize-coming-soon.svg`) is still in the tree if you ever
+want to swap it back.
 
-To drop in a real photo later: save it as `Meet-Ize.webp` at 791×699 and change the
-`<img src>` back — the `<img>` still carries `width="791" height="699"`, so the layout
-won't shift.
+Alex Dinh's photo was deleted from the tree entirely, along with its `-300x265` and
+`-768x679` variants.
 
 ## Territory
 
